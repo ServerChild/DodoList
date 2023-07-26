@@ -1,0 +1,6 @@
+section{ 
+    width:80%; 
+    min-height: calc(100% - 80px); 
+    float:left; 
+    background-color:deepskyblue;
+}
