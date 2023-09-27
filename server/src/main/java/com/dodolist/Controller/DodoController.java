@@ -6,6 +6,7 @@ import com.dodolist.Service.DodoService;
 import com.dodolist.Entity.DodoResponse;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
+import org.springframework.ui.Model;
 import org.springframework.util.ObjectUtils;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,6 +19,12 @@ import java.util.stream.Collectors;
 @RequestMapping("/")
 public class DodoController {
     private final DodoService service;
+
+    //React 연동 테스트
+    @GetMapping("/api/main")
+    public String getMain() {
+        return "Hello Spring Boot🎃";
+    }
 
     //할 일 등록
     @PostMapping

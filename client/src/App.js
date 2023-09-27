@@ -1,10 +1,17 @@
-import './App.css';
+import React, { useEffect, useState } from "react"
 
 function App() {
-    return (
-        <div className="App">
-            <div className="text-5xl font-bold text-sky-400/100">dodo listt</div>
-        </div>
+  const [data, setData] = useState('');
+
+  useEffect(() => {
+    fetch('/api/main')
+        .then(response => response.text())
+        .then(data => setData(data))
+        .catch(error => console.error(error));
+  }, []);
+
+return (
+    <p>{data}</p>
     );
 }
 
