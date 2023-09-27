@@ -19,6 +19,12 @@ import java.util.stream.Collectors;
 public class DodoController {
     private final DodoService service;
 
+    //React Spring 연동 테스트
+    @GetMapping("/api/main")
+    public String getMain() {
+        return "Hello Spring Boot🎃";
+    }
+
     //할 일 등록
     @PostMapping
     public ResponseEntity<DodoResponse> create(@RequestBody DodoRequest request) {
