@@ -4,36 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cfe9ad2-4559-4fa8-90f4-0baf718dfe9f" name="Changes" comment="v2_Server/Client 환경 구성">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/DoDoList.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.dodolist.DoDoList.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/packagesearch.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/layout/Aside.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/layout/Aside.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/layout/Footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/layout/Footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/layout/Header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/layout/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/layout/Section.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/layout/Section.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/dodolist/Controller/DodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/dodolist/Controller/DodoController.java" afterDir="false" />
-    </list>
+    <list default="true" id="9cfe9ad2-4559-4fa8-90f4-0baf718dfe9f" name="Changes" comment="v3_client.server 연동" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,12 +193,27 @@
       <option name="project" value="LOCAL" />
       <updated>1690348229947</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="v3_client.server 연동">
+      <created>1695839378055</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695839378055</updated>
+    </task>
+    <task id="LOCAL-00004" summary="v3_client.server 연동">
+      <created>1695839386155</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695839386155</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1" />
     <MESSAGE value="v2_Server/Client 환경 구성" />
-    <option name="LAST_COMMIT_MESSAGE" value="v2_Server/Client 환경 구성" />
+    <MESSAGE value="v3_client.server 연동" />
+    <option name="LAST_COMMIT_MESSAGE" value="v3_client.server 연동" />
   </component>
 </project>
